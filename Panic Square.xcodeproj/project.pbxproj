@@ -10,9 +10,33 @@
 		45A5285E2E3B62F50036DE05 /* Panic Square.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Panic Square.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		455F31B32E423BEC00BA3FF1 /* Exceptions for "Panic Square" folder in "Panic Square" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Extensions/Color+Extensions.swift",
+			);
+			target = 45A5285D2E3B62F50036DE05 /* Panic Square */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		455F31B42E423BEC00BA3FF1 /* Exceptions for "Panic Square" folder in "Copy Bundle Resources" phase from "Panic Square" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 45A5285C2E3B62F50036DE05 /* Resources */;
+			membershipExceptions = (
+				"Extensions/Color+Extensions.swift",
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		45A528602E3B62F50036DE05 /* Panic Square */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				455F31B32E423BEC00BA3FF1 /* Exceptions for "Panic Square" folder in "Panic Square" target */,
+				455F31B42E423BEC00BA3FF1 /* Exceptions for "Panic Square" folder in "Copy Bundle Resources" phase from "Panic Square" target */,
+			);
 			path = "Panic Square";
 			sourceTree = "<group>";
 		};
@@ -251,6 +275,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LLXCQGKVF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -278,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LLXCQGKVF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
